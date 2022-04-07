@@ -15,7 +15,7 @@ def job():
     res = requests.get(api, headers=headers)
     posts = res.json()
 
-    token = 'OW3CSYrVh2CEWMWUM2UH7qTj7AylKTIOsbk7070BEeR'
+    token = ''
     post_url = 'https://www.dcard.tw/f/youtuber'
 
     for post in posts:
